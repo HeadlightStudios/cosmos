@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import Helmet from 'react-helmet'
 
 import { Heading1, Heading2, Text, Link, List, ListItem } from './docs-components/typography'
-import { Code } from '@auth0/cosmos'
+import { Code } from '@headlight/cosmos'
 
 const Container = styled.div``
 
@@ -31,8 +31,9 @@ class FAQs extends React.Component {
           </Heading2>
           <Text>
             The easiest way to ask to request a new component or customization to an existing one is
-            to <Link href="https://github.com/auth0/Cosmos/issues">create an issue</Link> on GitHub
-            or <Link href="https://auth0.slack.com/messages/C5ZK0DD8X">talk to us on Slack.</Link>
+            to <Link href="https://github.com/HeadlightStudios/cosmos/issues">create an issue</Link>{' '}
+            on GitHub or{' '}
+            <Link href="https://auth0.slack.com/messages/C5ZK0DD8X">talk to us on Slack.</Link>
           </Text>
           {/*  */}
           <Heading2>How does versioning happen? How do I get updates?</Heading2>
@@ -51,7 +52,7 @@ class FAQs extends React.Component {
             be aware (we try) of the needs. For this reason, some components will be released in an
             experimental mode first before they make it into stable. You can join the discussion
             about the{' '}
-            <Link href="https://github.com/auth0/cosmos/issues/3">
+            <Link href="https://github.com/HeadlightStudios/cosmos/issues/3">
               component release cycle here.
             </Link>
           </Text>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { TextInput, Switch, Select } from '@auth0/cosmos'
+import { TextInput, Switch, Select } from '@headlight/cosmos'
 
 const PropSwitcher = ({ propName, data, onPropsChange }) => {
   let method = value => onPropsChange(propName, value.toString())

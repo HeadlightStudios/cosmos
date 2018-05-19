@@ -1,8 +1,8 @@
 import React from 'react'
 import { storiesOf, forceReRender } from '@storybook/react'
-import { Example } from '@auth0/cosmos/_helpers/story-helpers'
+import { Example } from '@headlight/cosmos/_helpers/story-helpers'
 
-import { Button, Tabs } from '@auth0/cosmos'
+import { Button, Tabs } from '@headlight/cosmos'
 
 storiesOf('Tabs').add('default', () => (
   <Example title="default">

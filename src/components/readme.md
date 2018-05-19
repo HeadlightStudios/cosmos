@@ -2,7 +2,7 @@
 
 &nbsp;&nbsp;
 
-#### Auth0 Design System
+#### Headlight Studios Design System
 
 &nbsp;&nbsp;
 

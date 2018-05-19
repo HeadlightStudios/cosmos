@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 
 import { Heading1, Heading2, Text, Link, List, ListItem } from './docs-components/typography'
 import Pre from './docs-components/pre'
-import { Code } from '@auth0/cosmos'
+import { Code } from '@headlight/cosmos'
 
 const Container = styled.div``
 
@@ -18,7 +18,7 @@ class ContributionGuide extends React.Component {
           <Heading2>Setup</Heading2>
           <Text>
             Clone the GitHub repository on your machine
-            <Pre>git clone https://github.com/auth0/cosmos.git</Pre>
+            <Pre>git clone https://github.com/HeadlightStudios/cosmos.git</Pre>
             To install all the dependencies, run
             <Pre>yarn</Pre>
             Create a new branch and start the development server

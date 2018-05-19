@@ -2,8 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import ResourceListItem from './item'
-import { spacing } from '@auth0/cosmos-tokens'
-import { __ICONNAMES__ } from '@auth0/cosmos/atoms/icon'
+import { spacing } from '@headlight/cosmos-tokens'
+import { __ICONNAMES__ } from '@headlight/cosmos/atoms/icon'
 
 const StyledList = styled.ul`
   margin: ${spacing.large} 0;

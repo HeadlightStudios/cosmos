@@ -4,7 +4,7 @@
   unstable: true
 ```
 
-`import { Table } from '@auth0/cosmos'`
+`import { Table } from '@headlight/cosmos'`
 
 ```jsx
 <Table

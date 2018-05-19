@@ -3,7 +3,7 @@
   description: "Use this component to horizontally layout children"
 ```
 
-`import { Stack } from '@auth0/cosmos'`
+`import { Stack } from '@headlight/cosmos'`
 
 ```jsx
 <Stack {props}>

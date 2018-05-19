@@ -2,13 +2,13 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
-import { spacing } from '@auth0/cosmos-tokens'
+import { spacing } from '@headlight/cosmos-tokens'
 import getLayout from '../layout'
 
 import Button from '../../../atoms/button'
 import ButtonGroup from '../../../molecules/button-group'
 import { Right, Clear } from '../../../_helpers/float'
-import { __ICONNAMES__ } from '@auth0/cosmos/atoms/icon'
+import { __ICONNAMES__ } from '@headlight/cosmos/atoms/icon'
 
 const StyledActions = styled.div`
   width: ${props => getLayout(props.layout).formWidth};

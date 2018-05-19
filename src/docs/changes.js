@@ -13,13 +13,13 @@ import {
   List,
   ListItem
 } from './docs-components/typography'
-import { Code } from '@auth0/cosmos'
+import { Code } from '@headlight/cosmos'
 
 const Container = styled.div``
 
 const content = changelog.replace(
   /\[#(\d+)\]/g,
-  '<a href="https://github.com/auth0/cosmos/pull/$1" target="_blank">[#$1]</a>'
+  '<a href="https://github.com/HeadlightStudios/cosmos/pull/$1" target="_blank">[#$1]</a>'
 )
 
 const options = {

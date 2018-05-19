@@ -3,9 +3,9 @@ import styled from 'styled-components'
 
 import Container from './container'
 import IconSketch from './icon-sketch'
-import { Icon, Logo } from '@auth0/cosmos'
+import { Icon, Logo } from '@headlight/cosmos'
 
-import { colors, spacing } from '@auth0/cosmos/tokens'
+import { colors, spacing } from '@headlight/cosmos/tokens'
 
 const Navigation = styled.nav`
   text-align: right;
@@ -60,7 +60,7 @@ export default () => (
         <div className="nav-left">
           <h1 className="logo">
             <Logo />
-            <span className="logo-word">Cosmos</span>
+            <span className="logo-word">emly</span>
           </h1>
         </div>
         <div className="nav-right">
@@ -91,7 +91,11 @@ export default () => (
               </a>
             </li>
             <li>
-              <a href="https://github.com/auth0/cosmos" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://github.com/HeadlightStudios/cosmos"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Icon name="code" color={colors.base.grayLightest} size={20} />
                 <span>Github</span>
               </a>

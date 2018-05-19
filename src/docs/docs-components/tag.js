@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
 
-import { colors, fonts, misc } from '@auth0/cosmos-tokens'
+import { colors, fonts, misc } from '@headlight/cosmos-tokens'
 console.log(misc)
 
 const StyledTag = styled.span`

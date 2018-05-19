@@ -1,8 +1,8 @@
 {
-  "name": "@auth0/babel-preset-cosmos",
+  "name": "@headlight/babel-preset-cosmos",
   "description": "babel preset to use cosmos",
-  "version": "0.2.1",
-  "repository": "auth0/cosmos",
+  "version": "0.2.3",
+  "repository": "HeadlightStudios/cosmos",
   "main": "index.js",
   "author": "siddharthkp",
   "license": "MIT",

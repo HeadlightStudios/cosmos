@@ -5,7 +5,7 @@ import kebabCase from 'lodash.kebabcase'
 import startCase from 'lodash.startcase'
 
 import Tag from '../docs-components/tag'
-import { spacing, colors } from '@auth0/cosmos/tokens'
+import { spacing, colors } from '@headlight/cosmos/tokens'
 
 const StyledLink = styled.div`
   a {

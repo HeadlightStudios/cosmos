@@ -6,7 +6,7 @@ import Button from '../../atoms/button'
 import Link from '../../atoms/link'
 import Heading from '../../atoms/heading'
 import Paragraph from '../../atoms/paragraph'
-import { colors, spacing } from '@auth0/cosmos-tokens'
+import { colors, spacing } from '@headlight/cosmos-tokens'
 
 const EmptyState = props => {
   let helpLink

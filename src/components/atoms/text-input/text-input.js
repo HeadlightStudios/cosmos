@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import { misc } from '@auth0/cosmos-tokens'
+import { misc } from '@headlight/cosmos-tokens'
 import { StyledInput } from '../_styled-input'
 
 const TextInput = ({ defaultValue, ...props }) => {

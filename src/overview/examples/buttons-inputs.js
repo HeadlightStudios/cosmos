@@ -2,7 +2,7 @@ import React from 'react'
 
 import Example from '../ov-components/example'
 import Section from '../ov-components/section'
-import { Stack, TextInput, Button } from '@auth0/cosmos'
+import { Stack, TextInput, Button } from '@headlight/cosmos'
 
 const ButtonInputs = () => (
   <Section>

@@ -2,14 +2,14 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
-import { spacing } from '@auth0/cosmos-tokens'
+import { spacing } from '@headlight/cosmos-tokens'
 
 import Heading, { StyledHeading } from '../../atoms/heading'
 import Description from './description'
 
 import Button from '../../atoms/button'
 import ButtonGroup, { StyledButtonGroup } from '../../molecules/button-group'
-import { __ICONNAMES__ } from '@auth0/cosmos/atoms/icon'
+import { __ICONNAMES__ } from '@headlight/cosmos/atoms/icon'
 
 const StyledPageHeader = styled.div`
   margin-bottom: ${spacing.large};

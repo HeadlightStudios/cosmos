@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import Link, { StyledLink } from '../link'
 import Paragraph, { StyledParagraph } from '../paragraph'
-import { colors, spacing } from '@auth0/cosmos-tokens'
+import { colors, spacing } from '@headlight/cosmos-tokens'
 
 const Alert = props => (
   <Alert.Element type={props.type}>

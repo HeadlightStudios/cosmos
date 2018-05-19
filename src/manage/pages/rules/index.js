@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { PageHeader } from '@auth0/cosmos'
+import { PageHeader } from '@headlight/cosmos'
 
 class RulesIndex extends React.Component {
   render() {

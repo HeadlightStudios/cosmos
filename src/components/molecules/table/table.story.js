@@ -1,7 +1,7 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
-import { Example } from '@auth0/cosmos/_helpers/story-helpers'
-import { Avatar, Table } from '@auth0/cosmos'
+import { Example } from '@headlight/cosmos/_helpers/story-helpers'
+import { Avatar, Table } from '@headlight/cosmos'
 
 const items = [
   {

@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
 import SidebarLink from './sidebar-link'
-import { __ICONNAMES__ } from '@auth0/cosmos/atoms/icon'
+import { __ICONNAMES__ } from '@headlight/cosmos/atoms/icon'
 
 class SidebarLinkGroup extends React.Component {
   constructor(props) {

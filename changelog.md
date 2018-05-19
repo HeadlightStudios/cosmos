@@ -36,7 +36,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Changed
 
 * **BREAKING** Make cosmos babel preset an optional dependency [#497]
-  The babel preset is no longer available in `@auth0/cosmos/babel`, use `@auth0/babel-preset-cosmos` instead
+  The babel preset is no longer available in `@headlight/cosmos/babel`, use `@headlight/babel-preset-cosmos` instead
 * An improved client list for manage proof of concept [#441]
 * Better naming + urls [#493] and permalinks for docs[#492]
 

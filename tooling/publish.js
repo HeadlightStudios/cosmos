@@ -7,7 +7,7 @@ const latestVersion = require('latest-version')
 
 const { version } = readPkg.sync(path.resolve(__dirname, '../package.json'))
 
-latestVersion('@auth0/cosmos').then(publishedVersion => {
+latestVersion('@headlight/cosmos').then(publishedVersion => {
   /* if the latest version is already published, skip this entire script */
   if (publishedVersion === version) {
     warn(`This version (${version}) is already published.`)
@@ -24,7 +24,7 @@ latestVersion('@auth0/cosmos').then(publishedVersion => {
 
     /* components should import the same version */
     if (directory === 'src/components') {
-      content.dependencies['@auth0/cosmos-tokens'] = version
+      content.dependencies['@headlight/cosmos-tokens'] = version
     }
 
     fs.writeJsonSync(packageJSONPath, content, { spaces: 2 })
@@ -73,7 +73,7 @@ latestVersion('@auth0/cosmos').then(publishedVersion => {
   try {
     directories.forEach(directory => {
       const dir = directory.replace('src', 'dist')
-      execa.shellSync(`cd ${dir} && npm publish`)
+      execa.shellSync(`cd ${dir} && npm publish --access public`)
       info('PUBLISH', `published ${dir}`)
     })
   } catch (err) {

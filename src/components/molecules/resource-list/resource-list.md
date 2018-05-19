@@ -4,7 +4,7 @@
   unstable: true
 ```
 
-`import { ResourceList } from '@auth0/cosmos'`
+`import { ResourceList } from '@headlight/cosmos'`
 
 The `ResourceList` is a data-driven list. You should use it when you have a list of _resources_; that is, records or entities loaded from a database of some kind.
 

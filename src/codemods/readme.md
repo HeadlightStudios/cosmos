@@ -2,7 +2,7 @@
 
 &nbsp;&nbsp;
 
-#### Codemods for Auth0 Design System
+#### Codemods for Headlight Studios Design System
 
 &nbsp;&nbsp;
 

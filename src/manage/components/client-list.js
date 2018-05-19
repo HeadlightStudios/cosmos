@@ -2,14 +2,14 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
-import { Code, ResourceList } from '@auth0/cosmos'
-import { spacing } from '@auth0/cosmos-tokens'
+import { Code, ResourceList } from '@headlight/cosmos'
+import { spacing } from '@headlight/cosmos-tokens'
 import { clients } from '../pages/clients/clients.json'
 
 import ClientTypeImages from './client-types-images'
 
-/* TODO: Find a good way to override: https://github.com/auth0/cosmos/issues/347 */
-import { StyledTextSubdued } from '@auth0/cosmos/atoms/text'
+/* TODO: Find a good way to override: https://github.com/HeadlightStudios/cosmos/issues/347 */
+import { StyledTextSubdued } from '@headlight/cosmos/atoms/text'
 
 const noop = () => {}
 

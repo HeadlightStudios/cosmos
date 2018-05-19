@@ -1,8 +1,8 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
-import { Example, Stack } from '@auth0/cosmos/_helpers/story-helpers'
+import { Example, Stack } from '@headlight/cosmos/_helpers/story-helpers'
 
-import { Switch } from '@auth0/cosmos'
+import { Switch } from '@headlight/cosmos'
 
 storiesOf('Switch').add('default', () => (
   <Example title="Switch">

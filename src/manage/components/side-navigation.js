@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Sidebar } from '@auth0/cosmos'
+import { Sidebar } from '@headlight/cosmos'
 
 const SideNavigation = () => (
   <div

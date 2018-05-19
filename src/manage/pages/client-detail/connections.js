@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import { Paragraph } from '@auth0/cosmos'
+import { Paragraph } from '@headlight/cosmos'
 
 import ConnectionList from '../../components/connection-list'
 

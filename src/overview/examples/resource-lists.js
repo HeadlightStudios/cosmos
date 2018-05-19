@@ -2,7 +2,7 @@ import React from 'react'
 
 import Example from '../ov-components/example'
 import Section from '../ov-components/section'
-import { ResourceList, Image } from '@auth0/cosmos'
+import { ResourceList, Image } from '@headlight/cosmos'
 
 import ClientList from '../../manage/components/client-list'
 

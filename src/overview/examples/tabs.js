@@ -2,7 +2,7 @@ import React from 'react'
 
 import Section from '../ov-components/section'
 import Example from '../ov-components/example'
-import { Tabs } from '@auth0/cosmos'
+import { Tabs } from '@headlight/cosmos'
 
 const TabsExample = () => (
   <Section>

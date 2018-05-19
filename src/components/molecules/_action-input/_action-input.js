@@ -6,8 +6,8 @@ import TextInput from '../../atoms/text-input'
 import Button from '../../atoms/button'
 import ButtonGroup, { StyledButtonGroup } from '../../molecules/button-group'
 import { multiply } from '../../_helpers/pixel-calc'
-import { spacing } from '@auth0/cosmos-tokens'
-import { __ICONNAMES__ } from '@auth0/cosmos/atoms/icon'
+import { spacing } from '@headlight/cosmos-tokens'
+import { __ICONNAMES__ } from '@headlight/cosmos/atoms/icon'
 
 /* TODO: width of button should be exported by button component */
 const widthOfButton = '36px'

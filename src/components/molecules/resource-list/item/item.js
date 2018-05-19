@@ -1,10 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import { Avatar, Button, ButtonGroup, Link, Thumbnail } from '@auth0/cosmos'
-import { colors, spacing } from '@auth0/cosmos-tokens'
-import { StyledTextAllCaps } from '@auth0/cosmos/atoms/text'
-import { __ICONNAMES__ } from '@auth0/cosmos/atoms/icon'
+import { Avatar, Button, ButtonGroup, Link, Thumbnail } from '@headlight/cosmos'
+import { colors, spacing } from '@headlight/cosmos-tokens'
+import { StyledTextAllCaps } from '@headlight/cosmos/atoms/text'
+import { __ICONNAMES__ } from '@headlight/cosmos/atoms/icon'
 
 const StyledListItem = styled.li`
   display: flex;

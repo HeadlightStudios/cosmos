@@ -3,7 +3,7 @@
   description: Displays additional information about another piece of the UI
 ```
 
-`import { Label } from '@auth0/cosmos'`
+`import { Label } from '@headlight/cosmos'`
 
 ---
 

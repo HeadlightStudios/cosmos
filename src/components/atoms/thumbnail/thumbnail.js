@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
-import { Image } from '@auth0/cosmos'
-import { misc, colors } from '@auth0/cosmos-tokens'
+import { Image } from '@headlight/cosmos'
+import { misc, colors } from '@headlight/cosmos-tokens'
 
 const sizeContent = {
   small: misc.avatar.small,

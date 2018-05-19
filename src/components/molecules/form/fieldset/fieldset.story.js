@@ -1,8 +1,8 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
-import { Example, Stack } from '@auth0/cosmos/_helpers/story-helpers'
+import { Example, Stack } from '@headlight/cosmos/_helpers/story-helpers'
 
-import { Form } from '@auth0/cosmos'
+import { Form } from '@headlight/cosmos'
 
 storiesOf('Form').add('fieldset', () => (
   <Example title="fieldset">

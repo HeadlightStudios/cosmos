@@ -2,7 +2,7 @@
 
 &nbsp;&nbsp;
 
-#### Babel preset for Auth0 Design System
+#### Babel preset for Headlight Studios Design System
 
 &nbsp;&nbsp;
 

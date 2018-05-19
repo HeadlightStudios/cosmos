@@ -6,7 +6,7 @@ import Playground from './playground'
 import Break from './break'
 
 import IconBrowser from './icon-browser'
-import { Alert, Code } from '@auth0/cosmos'
+import { Alert, Code } from '@headlight/cosmos'
 import { Text, ListItem, List, Link } from '../docs-components/typography'
 import PageHeader from './page-header'
 import { SectionHeader, ExampleHeader } from './header'

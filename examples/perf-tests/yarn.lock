@@ -2,24 +2,24 @@
 # yarn lockfile v1
 
 
-"@auth0/babel-preset-cosmos@0.0.3":
+"@headlight/babel-preset-cosmos@0.0.3":
   version "0.0.4"
-  resolved "https://registry.npmjs.org/@auth0/babel-preset-cosmos/-/babel-preset-cosmos-0.0.4.tgz#39f023e956b0076f3cc4d320fe63ec3ec0569a24"
+  resolved "https://registry.npmjs.org/@headlight/babel-preset-cosmos/-/babel-preset-cosmos-0.0.4.tgz#39f023e956b0076f3cc4d320fe63ec3ec0569a24"
   dependencies:
     babel-plugin-transform-class-properties "6.24.1"
     babel-plugin-transform-object-rest-spread "6.26.0"
     babel-preset-react "6.24.1"
 
-"@auth0/cosmos-tokens@0.0.4":
+"@headlight/cosmos-tokens@0.0.4":
   version "0.0.4"
-  resolved "https://registry.npmjs.org/@auth0/cosmos-tokens/-/cosmos-tokens-0.0.4.tgz#d46caa5d14ca7ae0f40e43ad6cb07628f4d716c2"
+  resolved "https://registry.npmjs.org/@headlight/cosmos-tokens/-/cosmos-tokens-0.0.4.tgz#d46caa5d14ca7ae0f40e43ad6cb07628f4d716c2"
 
-"@auth0/cosmos@0.0.4":
+"@headlight/cosmos@0.0.4":
   version "0.0.4"
-  resolved "https://registry.npmjs.org/@auth0/cosmos/-/cosmos-0.0.4.tgz#5f67e02b6283a3e23752336b8417b02d928a89d4"
+  resolved "https://registry.npmjs.org/@headlight/cosmos/-/cosmos-0.0.4.tgz#5f67e02b6283a3e23752336b8417b02d928a89d4"
   dependencies:
-    "@auth0/babel-preset-cosmos" "0.0.3"
-    "@auth0/cosmos-tokens" "0.0.4"
+    "@headlight/babel-preset-cosmos" "0.0.3"
+    "@headlight/cosmos-tokens" "0.0.4"
     babel-preset-cosmos "0.0.4"
     prop-types "15.6.1"
     styled-components "3.1.6"

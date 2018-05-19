@@ -6,7 +6,7 @@ const chokidar = require('chokidar')
 const { info, warn } = require('prettycli')
 const camelCase = require('lodash.camelcase')
 const getMetadata = require('./get-metadata')
-const { icons } = require('@auth0/cosmos/atoms/icon/icons.json')
+const { icons } = require('@headlight/cosmos/atoms/icon/icons.json')
 
 /* CLI param for watch mode */
 const watch = process.argv.includes('-w') || process.argv.includes('--watch')

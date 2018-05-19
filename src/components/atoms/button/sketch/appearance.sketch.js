@@ -1,7 +1,7 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
 
-import { Button, ButtonGroup } from '@auth0/cosmos'
+import { Button, ButtonGroup } from '@headlight/cosmos'
 
 storiesOf('Button').add('default', () => <Button>Button</Button>)
 storiesOf('Button').add('primary', () => <Button appearance="primary">Button</Button>)

@@ -1,8 +1,8 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
-import { Example } from '@auth0/cosmos/_helpers/story-helpers'
+import { Example } from '@headlight/cosmos/_helpers/story-helpers'
 
-import { Stack } from '@auth0/cosmos'
+import { Stack } from '@headlight/cosmos'
 
 const Box = () => (
   <div style={{ height: '50px', width: '50px', background: '#EEE', margin: '5px' }} />

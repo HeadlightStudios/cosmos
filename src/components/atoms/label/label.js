@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import { StyledTextAllCaps } from '@auth0/cosmos/atoms/text'
+import { StyledTextAllCaps } from '@headlight/cosmos/atoms/text'
 import { colors, misc } from '../../tokens'
 
 const StyledLabel = styled(StyledTextAllCaps)`

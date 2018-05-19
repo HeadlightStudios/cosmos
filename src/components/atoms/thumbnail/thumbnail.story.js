@@ -1,8 +1,8 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
-import { Example, Stack } from '@auth0/cosmos/_helpers/story-helpers'
+import { Example, Stack } from '@headlight/cosmos/_helpers/story-helpers'
 
-import { Thumbnail, Icon, Image } from '@auth0/cosmos'
+import { Thumbnail, Icon, Image } from '@headlight/cosmos'
 
 storiesOf('Thumbnail').add('with icon', () => (
   <Example title="Thumbnail">

@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import startCase from 'lodash.startcase'
 
-import { Alert } from '@auth0/cosmos'
+import { Alert } from '@headlight/cosmos'
 import { Heading1, Subheader } from '../docs-components/typography'
 
 const Headings = styled.div`

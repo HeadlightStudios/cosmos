@@ -7,9 +7,6 @@
 
 /* eslint-disable import/first */
 
-/* resets for font */
-import './_helpers/globals'
-
 /* demo */
 import Box from './atoms/_box'
 
@@ -50,6 +47,9 @@ import Sidebar from './molecules/sidebar'
 import Stack from './molecules/stack'
 import Table from './molecules/table'
 import Tabs from './molecules/tabs'
+
+/* resets for font */
+import './_helpers/globals'
 
 export {
   Alert,

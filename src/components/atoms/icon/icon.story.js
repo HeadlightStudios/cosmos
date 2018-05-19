@@ -1,9 +1,9 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
-import { Example, Stack } from '@auth0/cosmos/_helpers/story-helpers'
+import { Example, Stack } from '@headlight/cosmos/_helpers/story-helpers'
 
-import { Icon } from '@auth0/cosmos'
-import { spacing, colors } from '@auth0/cosmos/tokens'
+import { Icon } from '@headlight/cosmos'
+import { spacing, colors } from '@headlight/cosmos/tokens'
 
 storiesOf('Icon').add('default', () => (
   <Example title="Icons">

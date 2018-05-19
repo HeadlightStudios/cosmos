@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Table, Avatar, Button, ButtonGroup, Link } from '@auth0/cosmos'
+import { Table, Avatar, Button, ButtonGroup, Link } from '@headlight/cosmos'
 
 import Section from '../ov-components/section'
 import Example from '../ov-components/example'

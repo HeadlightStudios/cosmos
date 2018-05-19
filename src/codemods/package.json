@@ -1,9 +1,9 @@
 {
-  "name": "@auth0/cosmos-codemods",
+  "name": "@headlight/cosmos-codemods",
   "version": "0.0.5",
   "description": "codemods for auth0 cosmos",
   "main": "index.js",
-  "repository": "https://github.com/auth0/cosmos",
+  "repository": "https://github.com/HeadlightStudios/cosmos",
   "author": "siddharthkp",
   "license": "MIT"
 }

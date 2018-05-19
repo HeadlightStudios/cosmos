@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { EmptyState } from '@auth0/cosmos'
+import { EmptyState } from '@headlight/cosmos'
 
 class SsoIndex extends React.Component {
   render() {

@@ -9,21 +9,21 @@ const colors = {
     grayMedium: '#A8A8A8',
     grayLight: '#D9D9D9',
     grayLightest: '#F1F1F1',
-    blue: '#0a84ae',
+    blue: '#004646',
     blueLight: '#44c7f4',
     blueLightest: '#f5f7f9',
-    orange: '#eb5424',
+    orange: '#750000',
     orangeLighter: '#ff784d',
     orangeLightest: '#ffb299',
-    green: '#4CD964',
-    red: '#FF0000'
+    green: '#496D00',
+    red: '#750000'
   },
   text: {
     default: '#212121',
     inputs: '#555',
     secondary: '#757575',
     subtle: '#BDBDBD',
-    error: '#FF0000'
+    error: '#750000'
   },
   form: {
     title: '#000',
@@ -35,7 +35,7 @@ const colors = {
     backgroundReadOnly: '#F3F4F4',
     border: '#D9D9D9',
     borderHover: '#B7B7B7',
-    borderFocus: '#0a84ae',
+    borderFocus: '#004646',
     borderError: '#FF0000',
     icon: '#A2A2A2',
     text: '#333',
@@ -46,7 +46,7 @@ const colors = {
     labelDisabled: '#C6C6C6'
   },
   link: {
-    default: '#0a84ae',
+    default: '#004646',
     defaultHover: '#053b4e',
     defaultFocus: '#053b4e',
     sidebar: '#333',
@@ -59,7 +59,7 @@ const colors = {
   },
   tabs: {
     default: '#212121',
-    defaultHover: '#0a84ae'
+    defaultHover: '#004646'
   },
   button: {
     default: {
@@ -99,13 +99,13 @@ const colors = {
       borderActive: '#DADADA'
     },
     cta: {
-      background: '#EB5424',
+      background: '#750000',
       backgroundHover: '#D94514',
       backgroundFocus: '#D94514',
       backgroundActive: '#BF3A11',
       text: '#FAFAFA',
       icon: '#FAFAFA',
-      border: '#EB5424',
+      border: '#750000',
       borderHover: '#D94514',
       borderFocus: '#D94514',
       borderActive: '#BF3A11'
@@ -123,21 +123,21 @@ const colors = {
       borderActive: '#BE0001'
     },
     success: {
-      background: '#4CD964',
-      backgroundHover: '#4CD964',
-      backgroundFocus: '#4CD964',
+      background: '#496D00',
+      backgroundHover: '#496D00',
+      backgroundFocus: '#496D00',
       text: '#FAFAFA',
       icon: '#FAFAFA',
-      border: '#4CD964',
-      borderHover: '#4CD964',
-      borderFocus: '#4CD964',
-      borderActive: '#4CD964'
+      border: '#496D00',
+      borderHover: '#496D00',
+      borderFocus: '#496D00',
+      borderActive: '#496D00'
     },
     link: {
-      text: '#0a84ae',
-      icon: '#0a84ae',
-      hover: '#0a84ae',
-      focus: '#0a84ae'
+      text: '#004646',
+      icon: '#004646',
+      hover: '#004646',
+      focus: '#004646'
     }
   },
   icon: {

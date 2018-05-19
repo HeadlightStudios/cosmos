@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import { List, Switch, Stack, Icon } from '@auth0/cosmos'
-import { spacing } from '@auth0/cosmos-tokens'
+import { List, Switch, Stack, Icon } from '@headlight/cosmos'
+import { spacing } from '@headlight/cosmos-tokens'
 import { connections } from '../pages/client-detail/connections.json'
 
 const ConnectionType = styled.div`

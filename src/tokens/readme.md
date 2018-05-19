@@ -2,7 +2,7 @@
 
 &nbsp;&nbsp;
 
-#### Tokens for Auth0 Design System
+#### Tokens for Headlight Studios Design System
 
 &nbsp;&nbsp;
 

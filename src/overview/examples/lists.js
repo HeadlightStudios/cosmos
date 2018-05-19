@@ -3,7 +3,7 @@ import React from 'react'
 import Section from '../ov-components/section'
 import Example from '../ov-components/example'
 
-import { List } from '@auth0/cosmos'
+import { List } from '@headlight/cosmos'
 import ConnectionList from '../../manage/components/connection-list'
 
 const ListsExample = () => (

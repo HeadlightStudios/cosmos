@@ -1,13 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
+import { Link } from 'react-router-dom'
 
 import { colors, spacing } from '@headlight/cosmos-tokens'
 import Icon, { __ICONNAMES__ } from '../../atoms/icon'
 
 const SidebarLink = props => {
   return (
-    <SidebarLink.Element href={props.url} onClick={props.onClick} selected={props.selected}>
+    <SidebarLink.Element to={props.url || '#'} onClick={props.onClick} selected={props.selected}>
       <Icon
         name={props.icon ? props.icon : 'arrow-right'}
         size={18}
@@ -18,7 +19,7 @@ const SidebarLink = props => {
   )
 }
 
-SidebarLink.Element = styled.a`
+SidebarLink.Element = styled(Link)`
   display: block;
   cursor: pointer;
   color: ${props => (props.selected ? colors.link.sidebarFocus : colors.link.sidebar)};

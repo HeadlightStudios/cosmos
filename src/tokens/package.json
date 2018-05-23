@@ -1,7 +1,7 @@
 {
   "name": "@headlight/cosmos-tokens",
   "description": "Tokens for Headlight Studios Design System",
-  "version": "0.2.3",
+  "version": "0.2.9",
   "repository": "HeadlightStudios/cosmos",
   "main": "index.js",
   "scripts": {},

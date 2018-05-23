@@ -10,7 +10,7 @@ const colors = {
     grayLight: '#D9D9D9',
     grayLightest: '#F1F1F1',
     blue: '#004646',
-    blueLight: '#44c7f4',
+    blueLight: '#1F7272',
     blueLightest: '#f5f7f9',
     orange: '#750000',
     orangeLighter: '#ff784d',
@@ -75,16 +75,16 @@ const colors = {
       borderActive: '#DADADA'
     },
     primary: {
-      background: '#44C7F4',
-      backgroundHover: '#13B7ED',
-      backgroundFocus: '#13B7ED',
-      backgroundActive: '#11A7D9',
+      background: '#1F7272',
+      backgroundHover: '#0D5C5C',
+      backgroundFocus: '#0D5C5C',
+      backgroundActive: '#0D5C5C',
       text: '#FAFAFA',
       icon: '#FAFAFA',
-      border: '#44C7F4',
-      borderHover: '#13B7ED',
-      borderFocus: '#13B7ED',
-      borderActive: '#11A7D9'
+      border: '#1F7272',
+      borderHover: '#0D5C5C',
+      borderFocus: '#0D5C5C',
+      borderActive: '#DADADA'
     },
     secondary: {
       background: 'transparent',
@@ -100,14 +100,14 @@ const colors = {
     },
     cta: {
       background: '#750000',
-      backgroundHover: '#D94514',
-      backgroundFocus: '#D94514',
+      backgroundHover: '#BD3434',
+      backgroundFocus: '#BD3434',
       backgroundActive: '#BF3A11',
       text: '#FAFAFA',
       icon: '#FAFAFA',
       border: '#750000',
-      borderHover: '#D94514',
-      borderFocus: '#D94514',
+      borderHover: '#BD3434',
+      borderFocus: '#BD3434',
       borderActive: '#BF3A11'
     },
     destructive: {
